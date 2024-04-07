@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Anek+Latin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>Cine World</title>
+</head>
+<body>
+    
+      <header >
+        <div class="filter-black">
+          <div class="esfumacar-tv"></div>
+        </div>
+        <div class="logo-search-container">
+            <img class="logo" src="src/imagens/Vector.png" alt="">
+            <div class="input-search-container glass">
+              <form >
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input class="input-search" type="text" placeholder="Procurar Filme">
+              </form>
+            </div>
+        </div>
+        <div class="genre-title-container">
+
+            <div class="genre">
+            </div>
+            <h1 class="header-title"></h1>
+        </div>
+      </header>
+      <main >
+        <section class="popular-movies">
+            <h1 class="popular-title">Filmes Polulares</h1>
+            <div class="carousel-container">
+                <div class="carousel">
+                  
+                </div>
+                <i class="fa-solid fa-chevron-left carousel-btn prev-btn"></i>
+                <i class="fa-solid fa-chevron-right carousel-btn next-btn"></i>
+            </div>
+            <div class="carousel-container carousel-container-2">
+              <div class="carousel carousel-2">
+              <i class="fa-solid fa-chevron-left carousel-btn prev-btn prev-btn-2"></i>
+              <i class="fa-solid fa-chevron-right carousel-btn next-btn next-btn-2"></i>
+          </div>
+        </section>
+        <section class="tv">
+          <div class="trending-img-poster">
+            <div class="nota">
+              <i class="fa-solid fa-star"></i>
+              <p class="nota-number"></p>
+            </div>
+            <div class="title-tv-container">
+            </div>
+              <h1></h1>
+              <div class="esfumacar-tv"></div>
+          </div>
+          <h1 class="popular-title-tv">Popular Series TV</h1>
+          <div class="carousel-container-3">
+              <div class="carousel-3">
+                
+              </div>
+              <i class="fa-solid fa-chevron-left carousel-btn prev-btn prev-btn-3"></i>
+              <i class="fa-solid fa-chevron-right carousel-btn next-btn next-btn-3"></i>
+          </div>
+          <div class="carousel-container-4">
+            <div class="carousel-4">
+              
+            <i class="fa-solid fa-chevron-left carousel-btn prev-btn prev-btn-4"></i>
+            <i class="fa-solid fa-chevron-right carousel-btn next-btn next-btn-4"></i>
+        </div>
+        </section>
+    </main>
+    <section class="search-container hide">
+      <div class="input-search-container input-search-container-2 search-input glass">
+        <form >
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input class="input-search input-search-2" type="text" placeholder="Search Movie">
+        </form>
+      </div>
+      <div class="results">
+        
+      </div>
+      <i class="fa-solid fa-arrow-left-long"></i>     
+    </section>
+      <script src="src/js/carousel.js"></script>
+      <script src="src/js/api.js"></script>
+</body>
+</html>
