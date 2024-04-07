@@ -5,8 +5,6 @@ Este é um site de catálogo de filmes que exibe um carrossel com os filmes e s�
 
 ## Índice
 - [Funcionalidades](#funcionalidades)
-- [Demonstração](#demonstração)
-- [Contribuição](#contribuição)
 
 ## Funcionalidades
 - Exibição de um carrossel com os filmes e séries populares do momento.
